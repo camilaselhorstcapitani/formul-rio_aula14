@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichario</title>
+    <style>
+         .curriculo
+       {
+        width: 60%;
+        height: 80px;
+       }
+    </style>
+</head>
+<body>
+
+    <fieldset> 
+        <legend> Dados Pessoais</legend>
+        Nome: <input type=”text” class=”caixa_larga” id=”nome”>
+        <br> <br>
+        Endereço: <input type=”text” class=”caixa_larga” id=”endereco”>
+        <br> <br>
+        Cidade: <input type=”text” class=”caixa_larga” id=”cidade”>
+        <br> <br>
+        Estado: 
+        <select> 
+            <option>SC</option>
+            <option>SP</option>
+            <option>RJ</option>
+        </select>
+    </fieldset>
+    <br> <br>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        Natureza do cargo
+        <br> 
+        <input type="radio" name="corbeturas"> gerência
+        <input type="radio" name="corbeturas"> financeiro
+        <input type="radio" name="corbeturas"> recepção
+        <input type="radio" name="corbeturas"> administrativo
+        <input type="radio" name="corbeturas"> juridico
+        <br> <br>
+        Área de interesse
+        <br>
+        <input type="checkbox"> &nbsp;  computação 
+        <input type="checkbox"> &nbsp;  biologia
+        <input type="checkbox"> &nbsp;  meio ambiente
+        <input type="checkbox"> &nbsp;  engenharia 
+        <input type="checkbox"> &nbsp;  história 
+        <br>
+        Mini-curriculo: <br>
+        <textarea class="curriculo"> </textarea>
+    </fieldset>
+
+</body>
+</html>
